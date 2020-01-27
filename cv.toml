@@ -1,4 +1,3 @@
-title = "CV"
 version = "1.0.0"
 
 [Details]
@@ -11,6 +10,14 @@ version = "1.0.0"
   phone = "+79234221994"
   github = "https://github.com/kochurovro"
 
+[Summary]
+  text = """
+  Software engineer who is open to any tasks. After two years of working on LinkIT services I have confidence the platform can easily expand without my efforts.
+  And now I'm ready for a next step in my carrer path.
+  I'm looking for a company that will help my engineering skills further grow and will provide me with adequate challenges.
+  Primarily interested in a remote position but I'm open to all offers.
+  """
+
 [Education]
   year_end = 2016
   degree = "Applied mathematics and computer science (Bachelor)"
@@ -20,7 +27,7 @@ version = "1.0.0"
 
 [Experience]
   
-  [LinkIT360]
+  [Experience.LinkIT360]
     year_start = 2018-01-01T00:00:00+07:00
     year_end = "present"
     location = "Remote"
@@ -34,18 +41,10 @@ version = "1.0.0"
     """
     technology_stack = ["Go", "PostgreSQL", "Docker", "Docker-Compose", "Nginx", "Gitlab CI/CD", "Swagger", "RabbitMQ", "Linux"]
 
-  [CenteraSoft]
+  [Experience.CenteraSoft]
     year_start = 2017-09-01T00:00:00+07:00
     year_end = 2017-12-01T00:00:00+07:00
     location = "Tomsk"
     postion = "Junior C# developer"
     summary = "The main task was developing a service of migrating Events"
     technology_stack = [".NET Core", "Azure Storage", "TDD", "Git"]
-
-[Summary]
-    text = """
-    Software engineer who is open to any tasks. After two years of working on LinkIT services I have confidence the platform can easily expand without my efforts.
-    And now I'm ready for a next step in my carrer path.
-    I'm looking for a company that will help my engineering skills further grow and will provide me with adequate challenges.
-    Primarily interested in a remote position but I'm open to all offers.
-    """
