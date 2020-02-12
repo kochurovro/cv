@@ -15,15 +15,8 @@ version = "1.0.0"
   Software engineer who is open to new opportunities and is ready for a next step in my career path. 
   After two years of working on LinkIT services I have confidence the platform can easily expand without my efforts.
   I'm looking for a company that will help my engineering skills further grow and will provide me with adequate challenges.
-  Primarily interested in a remote position but I'm open to all offers.
+  Primarily interested in a remote position but I'm open to all offers.   Я ищу компанию в котороя смогу применить свои скилы ....
   """
-
-[Education]
-  year_end = 2016
-  degree = "Applied mathematics and computer science (Bachelor)"
-  university = "National Research Tomsk State University"
-  department = "Institute of Applied Mathematics and Computer Science"
-  url = "http://www.tsu.ru/"
 
 [Experience]
   
@@ -48,3 +41,10 @@ version = "1.0.0"
     postion = "Junior C# developer"
     summary = "The main task was developing a service of migrating Events"
     technology_stack = [".NET Core", "Azure Storage", "TDD", "Git"]
+
+[Education]
+  year_end = 2016
+  degree = "Applied mathematics and computer science (Bachelor)"
+  university = "National Research Tomsk State University"
+  department = "Institute of Applied Mathematics and Computer Science"
+  url = "http://www.tsu.ru/"
