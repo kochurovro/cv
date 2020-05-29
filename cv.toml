@@ -1,4 +1,4 @@
-version = "1.0.0"
+version = "2.0.0"
 
 [Details]
   name = "Kochurov Roman"
@@ -12,10 +12,9 @@ version = "1.0.0"
 
 [Summary]
   text = """
-  Software engineer who is open to new opportunities and is ready for a next step in my career path. 
-  After two years of working on LinkIT services I have confidence the platform can easily expand without my efforts.
-  I'm looking for a company that will help my engineering skills further grow and will provide me with adequate challenges.
-  Primarily interested in a remote position but I'm open to all offers.
+  A qualified software engineer open to new opportunities and ready for a next career step to grow and extend engineering skills.
+  Proficient in Go, with experience building RESTful services and billing gateways for mobile carriers. 
+  Primarily interested in a remote position.
   """
 
 [Experience]
@@ -28,19 +27,22 @@ version = "1.0.0"
     url = "http://www.linkit360.com/"
     description = "Mobile Payments for business"
     summary = """
-    Work experience in the small team. Tasks in the team are diverse.
-    Role was growing from implementation an non-scalable architecture for new providers to a scalable architecture design.
-    Each new provider was the responsibility of one developer where you need to implement all service stages from development to deployment.
+    Created a RESTful API for managing subscription services described through Swagger, 
+    with 4M daily transactions and 5M active subscriptions, and a back-end for the accompanying content management system.
+    Developed a billing gateway for mobile carriers, including the largest carriers of Pakistan, Russia and Cambodia.
+    Introduced the twelve-factor app methodology into the project. 
+    Built a CI/CD pipeline and a staging environment.
+    Worked as a part of a fully remote and highly autonomous team
     """
-    technology_stack = ["Go", "PostgreSQL", "Docker", "Docker-Compose", "Nginx", "Gitlab CI/CD", "Swagger", "RabbitMQ", "Linux"]
 
-  [Experience.CenteraSoft]
-    year_start = 2017-09-01T00:00:00+07:00
+  [Experience.Freelance]
+    year_start = 2017-05-01T00:00:00+07:00
     year_end = 2017-12-01T00:00:00+07:00
-    location = "Tomsk"
-    postion = "Junior C# developer"
-    summary = "The main task was developing a service of migrating Events"
-    technology_stack = [".NET Core", "Azure Storage", "TDD", "Git"]
+    location = "Remote"
+    summary = """
+    Interned for an insurance startup: worked on an Azure storage integration, implemented a migration service using the TDD methodology.
+    Built a middleware application to synchronize a social network store with an external store database.
+    """
 
 [Education]
   year_end = 2016
@@ -48,3 +50,15 @@ version = "1.0.0"
   university = "National Research Tomsk State University"
   department = "Institute of Applied Mathematics and Computer Science"
   url = "http://www.tsu.ru/"
+
+[Skills]
+  
+  [Skills.Main]
+  text="""
+  Go, Gitlab CI/CD, PostgreSQL, docker, docker-compose, systemd, Linux, AWS EC2, RabbitMQ, Nginx, Swagger
+  """
+
+  [Skills.Other]
+  text="""
+  Javascript, Prometheus, Grafana, MongoDB, Python 3, .NETCore 1.0 
+  """
